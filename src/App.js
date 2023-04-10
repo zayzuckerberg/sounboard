@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Card from "./Card";
+import Cards from "./Components/Cards";
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <h1>Sounds</h1>
+      <Cards />
     </div>
   );
 }
