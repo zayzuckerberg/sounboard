@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Public Sans', sans-serif;
+  }
+
+  
+  .dono-text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .dono-text p {
+    margin-top: 20px;
+  }
+  
+  p {
+    color: #505355;
+  }
+
+  h1 {
+    color: #1A1A1A;
+  }
+  
+  .logo {
+    text-align: center;
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 55px;
+  }
+  
+  .logo img {
+    display: inline-block;
+    height: 22px;
+    vertical-align: middle;
+  }
+  
+  .logo span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+
+
+
+
+  
