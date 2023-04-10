@@ -7,7 +7,40 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.card {
+  background-color: rgb(249, 249, 249);
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 250px;
+  margin: 25px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.bottom {
+  margin-bottom: 5px;
+}
+img {
+  width: 100px;
+}
+
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  line-height: 1.2rem;
+  font-weight: 900;
+  background: #007a5a;
+  padding: 8px 14px 9px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #fff;
+  height: 36px;
+  transition: all 75ms ease-in-out;
+}
+button:hover {
+  box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
 }
